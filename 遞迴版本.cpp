@@ -1,7 +1,6 @@
 #include <iostream>
 #include <cstdlib>
 using namespace std;
-void Ackermann(int,int);
 
 int A(int m,int n){
 	while (m!=0) {
