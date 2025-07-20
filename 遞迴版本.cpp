@@ -5,11 +5,11 @@ using namespace std;
 int A(int m,int n){
 	while (m!=0) {
 		if (n == 0) {
-            m=m-1;
-            n=1;
-        } else {
-			n=A(m,n-1);
-			m=m-1;
+            	m=m-1;
+            	n=1;
+        	} else {
+		n=A(m,n-1);
+		m=m-1;
 		}
 	}
 	return n+1;
