@@ -21,6 +21,9 @@ void powerSet(string str, int index = 0, string curr = "") {
 
 int main() {
     string str = "abc";
+    cout << "請輸入: ";
+    getline(cin,str);
+    
     powerSet(str);
     return 0;
 }
